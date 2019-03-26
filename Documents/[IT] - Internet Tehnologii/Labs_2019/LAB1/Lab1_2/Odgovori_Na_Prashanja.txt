@@ -1,0 +1,13 @@
+﻿Odgovor na prashanje 8:
+	--> Posle sekoe osvezhuvanje na stranicata se prikazhuva momentalnoto vreme
+
+Odgovor na prashanje 16:
+	--> IsPostBack kazhuva dali page-ot se renderirana za prv pat, ili e nekoj odgovor od serverot za ponatamoshnite baranja
+	    (od interakcijata na userot so page-ot)
+
+Odgovor na prashanje 31:
+	--> Znacenjeto na AutoPostBack e dali pri nekoja promena ( ili interakcija so) na Kontrolata da se isprati pageot do server za procesiranje
+
+Odgovor na prashanje 34:
+	--> EnableViewState - e svojstvo koja ovozmozhuva koga se prati baranje do serverot zaradi nekoja interakcija so page-ot dali da se odrzhuva momentalnata
+	    sostojba na page-ot (ako e false, pri sekoe baranje se vrati page-ot kako shto se renderira na pocetok)
