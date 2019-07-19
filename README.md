@@ -9,8 +9,8 @@
 Lab | Tasks & Solutions 
 ------------ | ------------ 
 LAB1 | [LAB1 TASKS & SOLUTIONS](https://github.com/FisnikL/Internet-Tehnologii/tree/master/LAB1) 
-LAB2 | [LAB2 TASKS & SOLUTIONS](https://github.com/FisnikL/Internet-Tehnologii/tree/master/Lab2) 
-LAB3 |
-LAB4 |
-LAB5 |
+LAB2 | [LAB2 TASKS & SOLUTIONS](https://github.com/FisnikL/Internet-Tehnologii/tree/master/LAB2) 
+LAB3 | [LAB3 TASKS & SOLUTIONS](https://github.com/FisnikL/Internet-Tehnologii/tree/master/LAB3) 
+LAB4 | [LAB4 TASKS & SOLUTIONS](https://github.com/FisnikL/Internet-Tehnologii/tree/master/LAB4)
+LAB5 | [LAB5 TASKS & SOLUTIONS](https://github.com/FisnikL/Internet-Tehnologii/tree/master/LAB5)
 
