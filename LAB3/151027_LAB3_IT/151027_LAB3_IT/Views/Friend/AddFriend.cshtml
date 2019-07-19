@@ -1,0 +1,33 @@
+﻿@using _151027_LAB3_IT.Models;
+
+
+@{
+    ViewBag.Title = "AddFriend";
+}
+
+<h2>Add Friend</h2>
+
+@using (Html.BeginForm("AddFriend", "Friend", FormMethod.Post))
+{
+    <table>
+        <tr style="margin: 10px;">
+            <td style="width:100px;">@Html.Label("Friend ID")</td>
+            <td style="width:150px;">@Html.TextBoxFor(m => (m as Friend).Id)</td>
+            <td style="width:150px;">@Html.ValidationMessageFor(m => (m as Friend).Id)</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Friend Name")</td>
+            <td>@Html.TextBoxFor(m => (m as Friend).Name)</td>
+            <td>@Html.ValidationMessageFor(m => (m as Friend).Name)</td>
+        </tr>
+        <tr>
+            <td>@Html.Label("Place")</td>
+            <td>@Html.TextBoxFor(m => (m as Friend).Location)</td>
+            <td>@Html.ValidationMessageFor(m => (m as Friend).Location)</td>
+        </tr>
+
+    </table>
+    <br />
+    <input type="submit" value="Submit" />
+    <input type="button" value="Back" onclick="window.location.href='@Url.Action("ShowAllFriends","Friend")'" />
+}
